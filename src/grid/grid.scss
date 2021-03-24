@@ -1,0 +1,26 @@
+div.grid-container{
+    // border:1px solid blue;
+    width:auto;
+    background-color:navy;
+}
+
+div.grid-row {
+    background-color:rgb(40, 98, 145);
+    // margin:1px;
+    // border: 1px solid fuchsia;
+    display:flex;
+    width:auto;
+}
+
+div.grid-square{
+    width: 1em;
+    height:1em;
+    background-color:#6ca7c2;
+    margin:2px;
+    // display:inline-block;
+    // border:1px solid lime;
+}
+
+.alive{
+    background-color:cyan;
+}
