@@ -1,5 +1,6 @@
 import React from 'react';
 import './grid.scss';
+import styled from 'styled-components';
 
 interface GridSquareProps {}
 

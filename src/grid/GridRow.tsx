@@ -1,6 +1,7 @@
 import React from 'react';
 import './grid.scss';
 import GridSquare from './GridSquare'
+import styled from 'styled-components';
 
 interface GridRowProps {
     displayRow: boolean[]
