@@ -1,26 +1,32 @@
-div.grid-container{
-    // border:1px solid blue;
+.grid-container{
     width:auto;
     background-color:navy;
 }
 
-div.grid-row {
+.grid-row {
     background-color:rgb(40, 98, 145);
-    // margin:1px;
-    // border: 1px solid fuchsia;
     display:flex;
-    width:auto;
+    // width:auto;
 }
 
-div.grid-square{
+.grid-square{
     width: 1em;
+    min-width:1em;
     height:1em;
+    min-height:1em;
     background-color:#74c2e6;
     margin: .5px;
-    // display:inline-block;
-    // border:1px solid lime;
+    border:none;
+    cursor:pointer;
 }
 
 .alive{
-    background-color:cyan;
+    background-color:white;
+}
+
+.false{
+    background-color:black;
+}
+.true{
+    background-color:white;
 }
